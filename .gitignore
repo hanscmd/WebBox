@@ -1,24 +1,31 @@
+# IDE/System files
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
 .DS_Store
+
+# Gradle Artifacts
+.they are building
 /build
 /captures
-.externalNativeBuild
-.cxx
 *.log
 *.apk
-*.keystore
-.gradle/
+.build/
+
+# Android Studio (IDE) files
+/local.properties
+# Ignoring the entire .idea directory (better than individual items)
 .idea/
-compose.*
-google-services.json
+
+# Optional: If you want to keep modules.xml for easy collaboration:
+# /!.idea/modules.xml
+
+# NDK/C++ Build files
+.externalNativeBuild
+.cxx
+
+# Sensitive data (Keystore, Secrets and Configurations)
+*.keystore
 *.jks
 keystore/
-gradle.properties
+google-services.json # Usually contains Firebase keys
+secrets.properties # Common practice for saving passwords
+signing.properties # The file we will use to sign the build
