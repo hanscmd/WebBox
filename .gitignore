@@ -12,4 +12,10 @@
 /captures
 .externalNativeBuild
 .cxx
-local.properties
+*.log
+*.apk
+*.keystore
+.gradle/
+.idea/
+compose.*
+google-services.json
